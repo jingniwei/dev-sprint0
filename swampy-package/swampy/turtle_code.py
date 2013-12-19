@@ -4,6 +4,7 @@ allendowney.com/swampy.
 Copyright 2011 Allen B. Downey
 Distributed under the GNU General Public License at gnu.org/licenses/gpl.html.
 """
+from TurtleWorld import *
 
 def draw(t, length, n):
     """Draws a tree with the given trunk length and levels of recursion.

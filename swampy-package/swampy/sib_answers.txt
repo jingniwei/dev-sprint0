@@ -1,19 +1,28 @@
 # Text answers from Week 0
 
-# Name:
+# Name: Jing
+
+Note that to call fdlt() the way it is implemented, we need to write `fdlt(bob, 20)`, for example. 
+What would the function look like if we wanted to also pass in a parameter for the angle?
+What would we have to do to be able to write `bob.fdlt(length, angle)`? (Hint: go back and take a look at how we define methods on the Turtle class in TurtleWorld.py)
+
+def fdturn(turtle, distance, angle):
+  fd(turtle, distance)
+  lt(turtle, angle)
+
 
 
 
 Explain what each of the following lines does. Use the terminology you learned from the book (or Google)
 	
-	from TurtleWorld import *
-	world = TurtleWorld()
-	bob = Turtle()
-	wait_for_user()
+	from TurtleWorld import *  #import the function from the TurtleWorld file. 
+	world = TurtleWorld() #creates turtle work instance and assign it to world
+	bob = Turtle() 
+	wait_for_user() #function on world.py that allows the program to wait instead of quitting after exicution
 
 Answer:
 
-
+	
 
 
 
@@ -21,7 +30,7 @@ Answer:
 These questions pertain to the program you wrote in Week0.
 
 -- What are the arguments of polygon()?  What type is each argument?
-Answer:
+Answer: 
 
 -- What two turtle functions did you use to draw the sides of the polygon?
 Answer:
